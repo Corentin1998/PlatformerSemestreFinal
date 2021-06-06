@@ -61,18 +61,18 @@ class TableauTiled extends Tableau{
         super.create();
         //musique
         this.game.sound.stopAll();
-        // this.music = this.sound.add('music');
+        this.music = this.sound.add('music');
 
-        // var musicConfig = {
-        //     mute: false,
-        //     volume: 0.1,
-        //     rate : 1,
-        //     detune: 0,
-        //     seek: 0,
-        //     loop: true,
-        //     delay:0,
-        // }
-        // this.music.play(musicConfig);
+        var musicConfig = {
+            mute: false,
+            volume: 0.1,
+            rate : 1,
+            detune: 0,
+            seek: 0,
+            loop: true,
+            delay:0,
+        }
+        this.music.play(musicConfig);
 
         //on en aura besoin...
         let ici=this;
