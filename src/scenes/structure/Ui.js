@@ -109,7 +109,7 @@ class Ui extends Phaser.Scene{
             repeat: -1
         });
 
-        this.plumeScore = this.add.sprite(42, 35, 'plume')
+        this.plumeScore = this.add.sprite(42, 32, 'plume')
 
     }
     
@@ -117,12 +117,12 @@ class Ui extends Phaser.Scene{
     gagne(points=1)
     {
         this.score+=points;
-        this._scoreText.setText('      ' + this.score + '/5');
+        this._scoreText.setText('      ' + this.score + '/4');
     }
 
     perd(points = 0) {
         this.score = 0;
-        this._scoreText.setText('      ' + this.score + '/5');
+        this._scoreText.setText('      ' + this.score + '/4');
         ;
     }
 

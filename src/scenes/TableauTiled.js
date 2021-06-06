@@ -187,7 +187,7 @@ class TableauTiled extends Tableau{
 
         // Plateforme horizontale
 
-        var platform = this.physics.add.image(7650, 700, 'bplatform')
+        var platform = this.physics.add.image(7625, 700, 'bplatform')
             .setImmovable(true)
             .setVelocity(100, -100)
             .setBodySize(64,31)
@@ -209,7 +209,7 @@ class TableauTiled extends Tableau{
 
         // Plateforme vertical 2
 
-        var platform = this.physics.add.image(7700, 350, 'bplatform')
+        var platform = this.physics.add.image(7700, 650, 'bplatform')
             .setImmovable(true)
             .setVelocity(100, -100)
             .setBodySize(64,31)
@@ -225,14 +225,14 @@ class TableauTiled extends Tableau{
             loop: -1,
             yoyo: true,
             tweens: [
-                { x:    0, y: 170, duration: 1000, ease: 'Stepped' },
                 { x:    0, y: -170, duration: 1000, ease: 'Stepped' },
+                { x:    0, y: 170, duration: 1000, ease: 'Stepped' },
             ]
         });
 
         // Plateforme horizontale 2
 
-        var platform = this.physics.add.image(8150, 700, 'bplatform')
+        var platform = this.physics.add.image(7775, 700, 'bplatform')
             .setImmovable(true)
             .setVelocity(100, -100)
             .setBodySize(64,31)
@@ -247,8 +247,8 @@ class TableauTiled extends Tableau{
             loop: -1,
             yoyo: true,
             tweens: [
-                { x:    -170, y: 0, duration: 1000, ease: 'Stepped' },
                 { x:    170, y: 0, duration: 1000, ease: 'Stepped' },
+                { x:    -170, y: 0, duration: 1000, ease: 'Stepped' },
             ]
         });
 
