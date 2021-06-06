@@ -1,4 +1,4 @@
-https://corentin1998.github.io/PlatformerSemestre/
+https://corentin1998.github.io/PlatformerSemestreFinal/
 
 Mon jeu comporte deux features de gameplay basiques :
 - Un saut qui redescend en douceur (si le joueur le veut), lui permettant de planer quelques secondes.
